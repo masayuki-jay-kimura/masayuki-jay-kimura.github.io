@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/**** base_pc ****/
+
+body {
+  font-family: 'DIN-LightRegular';
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+a {
+  text-decoration:none;
+  color:#000;
+  -webkit-transition:color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+    }
+
+a:hover {
+  color:#ff282a;
+}
+
+p {
+	text-align:left;
+}
+
+span {
+  text-align:left;
+}
+
+h1 {
+  font-family: 'Didot';
+  font-weight:normal;
+  font-size:5em;
+  text-transform:uppercase;
+  text-align:center;
+  line-height:0.9em;
+}
+
+h2 {
+  font-family: 'DIN-LightRegular';
+  font-size:1em;
+  text-align:center;
+  padding:10px 95px 0 95px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  line-height:2em;
+  max-width:750px;
+  margin:0 auto;
+  font-weight:normal;
+}
+
+h3 {
+  font-family: 'Didot';
+  font-weight:normal;
+  font-size:3em;
+  text-transform:uppercase;
+  text-align:left;
+  line-height:0.9em;
+  padding:0px 0 20px 0;
+}
+
+hr {
+  margin-bottom: 36px;
+}
+
+/**** container_pc ****/
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 481px){
+  .container {
+    max-width: 96%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/**** header_pc ****/
+
+header {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  -webkit-align-items: center; /* Safari */
+  align-items:center;
+  -webkit-justify-content: space-between; /* Safari */
+  justify-content:space-between;
+  margin: 0 2% 20px;
+}
+
+.header__logo img {
+  width: 80px;
+  height: 80px;
+  margin-right: 143px;
+}
+
+.header__menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header__menu li:last-child {
+  margin-right: 0;
+}
+
+/**** footer_pc ****/
+
+.footer__sns {
+  margin-bottom: 20px;
+}
+
+.footer__sns img {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+}
+
+/**** base_sm ****/
+@media screen and (max-width:480px){
+  hr {
+    display: none;
+  }
+}
+
+
+/**** container_sm ****/
+
+@media screen and (max-width:480px) {
+  .container {
+    width: 96%;
+  }
+}
+
+/**** header_sm ****/
+
+@media screen and (max-width:480px) {
+  header {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction: column;
+  }
+
+  .header__name {
+    display: none;
+  }
+
+  .header__logo img {
+    margin: 0 auto 20px;
+  }
+}

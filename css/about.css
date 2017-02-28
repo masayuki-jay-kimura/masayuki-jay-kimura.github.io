@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/**** main-visual_pc ****/
+
+.main-visual img {
+  width: 100%;
+  max-width: 1140px;
+  margin-bottom: 48px;
+}
+
+/**** about__section_pc ****/
+
+.about__section {
+  margin-bottom: 48px;
+}
+
+.about__section__from p {
+  margin-bottom: 16px;
+}
+
+.about__section__from label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.about__section__from input {
+  height: 30px;
+  border: 1px solid #ddd;
+  color: #333;
+  font-family: 'DIN-LightRegular';
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: normal;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.about__section__from textarea {
+  height: 150px;
+  border: 1px solid #ddd;
+  color: #333;
+  font-family: 'DIN-LightRegular';
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: normal;
+  width: 100%;
+  max-width: 1120px;
+}
+
+.about__section__from .btn {
+  height: 50px;
+  width: 100%;
+  max-width: 1140px;
+  margin: 40px 0 0 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'DIN-LightRegular';
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color .5s ease;
+  -moz-transition: background-color .5s ease;
+  -o-transition: background-color .5s ease;
+  transition: background-color .5s ease;
+}
+
+.about__section__from .btn:hover {
+  background-color:#fff;
+  color:#000;
+}
